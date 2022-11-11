@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon PORTOFILIO WEBSITE</title>
+    <link rel="stylesheet" href="/Css/all.min.css">
+    <link rel="stylesheet" href="/Css/main.css">
+</head>
+<body>
+    <!--Start Header Section-->
+
+    <div id="header">
+
+            <div class="container">
+                <nav>
+                    <img src="/Images/logo-oil.png" alt="logo" class="logo">
+                    <ul id="side-menu" >
+                        <li class="list-item"><a href="#header" class="link-item active">Home</a></li>
+                        <li class="list-item"><a href="#about" class="link-item">About</a></li>
+                        <li class="list-item"><a href="#services" class="link-item">Services</a></li>
+                        <li class="list-item"><a href="#Portfolio" class="link-item">Gallery</a></li>
+                        <li class="list-item"><a href="#contact" class="link-item">Contact</a></li>
+                        <i class="fa-solid fa-xmark" id="close-icon" onclick="closeMenu();"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" id="open-icon" onclick="openMenu();"></i>
+
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer/ Logistics</p>
+                    <h1>Hi, I am <span>Moustafa</span><br> from FRANCE</h1>
+                </div>
+            </div>
+
+    </div>
+        <!--End Header Section-->
+        <!--Start About Section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Images/user-1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="text">Hello i am a front end web developer from about three years and i works with multiple frameworks that can provide you with the services that you deserve the best i work with other collaborator to get you best result in the time margin that can match your profile</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills');">Skills</p>
+                        <p class="tab-links" onclick="openTab('experiences');">Experiences</p>
+                        <p class="tab-links" onclick="openTab('education');">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab"  id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Designing Websites with your that matches your skills</li>
+                            <li><span>App Development</span><br>Designing Application that get you the best benefits of your projects</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="experiences">
+                        <ul>
+                            <li><span>2022 - current</span><br>Free Lancer Software Development</li>
+                            <li><span>2021 - 2022 Web Developer</span><br>WebDeveloper at SRC software development company</span><br></li>
+                            <li><span>2020 - 2021 Training Program</span><br>Training Program to improve my skills in programming and upgrade personal communication</li>
+                            <li><span>2020 - 2021 Internship</span><br>Internship to SRC software development company</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="education">
+                        <ul>
+                            <li><span>2011</span><br>Veterinary Medicine Diplomate </li>
+                            <li><span>2017</span><br>course of full-time training as Full-Stack web developer</span><br></li>
+                            <li><span>2020</span><br>Internship to SRC software development company</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End about section-->
+
+    <!--Start Services Section-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>We designing the site web with the all the details that you would need and the structure that you ask for and we can help you with the design if you haven't some ideas for your project</p>
+                    <a href="https://github.com/moustafavet2011" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>the interface for applications, we use the best practice methods to get your application easy fast and reliable to the users</p>
+                    <a href="https://github.com/moustafavet2011" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Social media application that can get you the best effects on your projects will be connected to you instantly and you will have assistant services that will guide you to startup connecting</p>
+                    <a href="https://github.com/moustafavet2011" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Services Section-->
+
+    <!--Start Portfolio Section-->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Images/work1.png"alt="">
+                    <div class="layer">
+                        <h3>Website Designing</h3>
+                        <p>We designing the site web with the all the details that you would need and the structure that you ask for and we can help you with the design if you haven't some ideas for your project</p>
+                        <a href="https://github.com/moustafavet2011" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/work2 .png"alt="">
+                    <div class="layer">
+                        <h3>App Designing</h3>
+                        <p>Application designing, we use the best practice methods to get your application easy fast and reliable to the users</p>
+                        <a href="https://github.com/moustafavet2011" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                        <img src="./Images/work-3.png"alt="">
+                    <div class="layer">
+                        <h3>Social Media Apps</h3>
+                        <p>Social media application that can get you the best effects on your projects will be connected to you instantly and you will have assistant services that will guide you to startup connecting</p>
+                        <a href="https://github.com/moustafavet2011" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!--End Portfolio Section-->
+    <!--Start Contact section-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> drmustafavet2011@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>  Tel: 06 66 27 81 23</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100077651590312" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/HusseinMila" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://fr.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/channel/UCJKyG024x_XdjcTYVrrEovg" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="./Documents/Tech Veterinaire.pdf" target="_blank" class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name"  placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" name="submit" class="btn btn2">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Contact section-->
+
+    <!--Start Footer Section-->
+    <div class="footer">
+        <p>All Rights Reserved. &#169; <span>MH Services</span> 2022</p>
+    </div>
+    <!--End Footer Section-->
+    <!-- <ul class="test">
+        <li class="active">Item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul> -->
+    <script type="text/javascript" src="/Js/all.min.js"></script>
+    <script type="text/javascript" src="/Js/main.js"></script>
+</body>
+</html>
