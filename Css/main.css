@@ -24,7 +24,7 @@ body{
     background-position: center ;
     background-repeat: no-repeat;
 }
-.
+
 
 .container {
     padding: 10px 10%;
@@ -358,7 +358,7 @@ form .btn2{
 /* Start small screens media queries */
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(../images/backgorund-mobile.png);
+        background-image: url(../Images/backgorund-mobile.png);
     }
     .header-text{
         margin-top: 100%;
@@ -426,20 +426,4 @@ form .btn2{
     }
 }
 /* End small screens media queries */
-.test{
-    background-color: #262626;
-    width: 300px;
 
-}
-.test li{
-    display: block;
-    margin: 25px 15px;
-    background-color: #fff;
-    color: black;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.test li.active{
-    background-color: #ff004f;
-    color: #fff;
-}
