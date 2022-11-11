@@ -358,7 +358,7 @@ form .btn2{
 /* Start small screens media queries */
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(../Images/backgorund-mobile.png);
+        background-image: url(../Images/background-mobile.png);
     }
     .header-text{
         margin-top: 100%;
